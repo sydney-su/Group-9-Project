@@ -14,8 +14,10 @@
 /* Body */
 body {
     background-color: #F8F9FA; /* Light gray background */
+    font-size: 16px;
     color: #182B49; /* UCSD Blue */
     padding: 20px;
+    /*margin: 20px;*/
 }
 
 /* Header */
@@ -72,6 +74,14 @@ main {
 
 h2, h3 {
     color: #182B49;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+h4 {
+    color: #182B49;
+    padding-top: 20px;
     margin-bottom: 15px;
     text-align: left;
 }
@@ -80,6 +90,11 @@ p {
     font-size: 1rem;
     line-height: 1.6;
     text-align: left;
+}
+
+ul {
+    padding-left: 2em; 
+    line-height: 1.6;
 }
 
 /* Buttons */
