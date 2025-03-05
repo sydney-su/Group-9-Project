@@ -47,7 +47,7 @@ nav ul {
 }
 
 nav ul li {
-    margin-right: 15px;
+    margin-right: 35px;
 }
 
 nav ul li a {
@@ -158,3 +158,29 @@ footer {
     padding: 15px;
     margin-top: 30px;
 }
+
+/*** Connect Section ***/
+.connect-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.connect-para {
+    width: 55%;
+    padding-right: 10px;
+}
+.connect-participants {
+    width: 45%;
+    padding-right: 10px;
+}
+
+.form-container {
+    gap: 20px;
+}
+
+label {
+    gap: 20px;
+}
+/* Add other connect-related selectors here */

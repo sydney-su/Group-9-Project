@@ -30,6 +30,49 @@
         </ul>
     </nav>
     
+    <div id="connect">
+        <h2>Connect with Us</h2>
+        <div class="connect-container">
+            <div class="connect-para">
+                <p>Want to hear from us? Fill out the form below to share your name and email!</p>
+            </div>
+        </div>
+
+
+        <!-- Connect Form -->
+        <div class="form-container">
+            <form
+                id="connect-form"
+                title="connect-form"
+                action="https://formspree.io/f/yourFormID"
+                method="POST"
+            >
+
+
+                <!-- Name Input -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+
+                <!-- Email Input -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+
+                <!-- Formspree note -->
+                <p style="font-size: 0.9em; color: gray;">
+                    To actually collect responses, connect your form with
+                    <a href="https://formspree.io/" target="_blank">Formspree</a>.
+                </p>
+
+
+                <!-- Submit button -->
+                <button id="connect-button" type="submit">Submit</button>
+            </form>
+        </div>      
+    </div>
+
+
 
 </body>
 
